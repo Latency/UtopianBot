@@ -1,22 +1,8 @@
 #RSBot
 
-RSBot is an immensely popular and successful bot for a Java MMORPG.
+UtopiaBot is an immensely popular and successful bot for RuneScape. (a Java MMORPG)
+
 The program source code is completely open and free.
-Whether you're a Java expert or just keen to explore, the bot is a valuable learning resource.
-
-###Get the code
-
-Download the latest source code with:
-
-    git clone git://github.com/Latency/RSBot.git
-	
-Keep your source up to date with:
-
-    git pull git://github.com/Latency/RSBot.git master
-
-Subversion is also supported:
-
-    svn checkout http://svn.github.com/Latency/RSBot.git
 
 ### Dependencies
 
@@ -26,28 +12,11 @@ Subversion is also supported:
  * [Apache Commons - Lang] (http://commons.apache.org/lang/download_lang.cgi)
  * [Guava release 09] (http://guava-libraries.googlecode.com/files/guava-r09.zip)
 
-### Downloads (optional & unnecessary)
- 
-  - v2.45 Beta (ftp://67.182.48.192/RSBot/RSBot.jar)
-
-### FTP Repository
-
- * ftp://67.182.48.192/RSBot/
-
 ### Installation Notes
 
  - To install RSBot & Scripts project within the same build so that you may compile / debug both in real-time
    without downloading the RSBot.jar file and/or running the *.bat files to compile in your scripts.
-
- - Where your GIT repository or project path is located, open your shell and create a directory junction.
-   C:\Users\Latency\Documents\Eclipse\RSBot\>  
-   
-   Notice that my Eclipse projects are within <b>My Documents</b> and my repository and source code has been made
-    in the <b>RSBot</b> folder.  From there, you need to create a precompiled directory that points to the
-    RSBot cached directory found here:   <code>C:\Users\Latency\Documents\RSBot\Precompiled</code>
-
-    C:\Users\Latency\Documents\Eclipse\RSBot\>  mklink -J Precompiled C:\Users\Latency\Documents\RSBot\Precompiled
-   
+  
   - In your IDE, you must check the 'Output folders' option so that it will build the scripts into the relative
      directory within the RSBot project.
 
@@ -81,7 +50,7 @@ Make sure JDK is installed, then execute the `make.bat` file by *double clicking
 
 ### Running
 
-Java is required to run RSBot. You can run the client by *double clicking* the JAR file named `RSBot.jar`.
+Java is required to run UtopiaBot. You can run the client by *double clicking* the JAR file named `UtopiaBot.jar`.
 
 ##Linux, Mac OS X and other Unix systems
 
@@ -91,7 +60,7 @@ Make sure JDK and other needed packages (e.g. `make`) are installed on your syst
 
 ### Running
 
-To run RSBot, *double click* on the compiled JAR file, `RSBot.jar`, or execute `java -jar RSBot.jar` in a terminal.
+To run RSBot, *double click* on the compiled JAR file, `UtopiaBot.jar`, or execute `java -jar UtopiaBot.jar` in a terminal.
 
 ## Legal 
 
