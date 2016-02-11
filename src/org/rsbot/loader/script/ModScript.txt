@@ -1,0 +1,2782 @@
+name:     rsbot-v2.ms
+version:  652
+entries:  150
+--------------------------
+#149   
+      op     - 1
+      key    - replace
+      value  - aas
+      valueR - saa
+--------------------------
+#148   
+      op     - 1
+      key    - target
+      value  - epacsenur
+      valueR - runescape
+--------------------------
+#147   
+      op     - 1
+      key    - minbotversion
+      value  - 742
+      valueR - 247
+--------------------------
+#146   
+      op     - 2
+      clazz  - client
+      count  - 76
+ ... #0
+      getter_access - 17
+      getter_name   - getCurrentUsername
+      getter_desc   - ()Ljava/lang/String;
+      owner  - jr
+      name   - e
+      desc   - Ljava/lang/String;
+ ... #1
+      getter_access - 17
+      getter_name   - getCurrentPassword
+      getter_desc   - ()Ljava/lang/String;
+      owner  - bg
+      name   - d
+      desc   - Ljava/lang/String;
+ ... #2
+      getter_access - 17
+      getter_name   - getRSInterfaceCache
+      getter_desc   - ()[[Lorg/rsbot/client/RSInterface;
+      owner  - qp
+      name   - G
+      desc   - [[Lcn;
+ ... #3
+      getter_access - 17
+      getter_name   - getWorldData
+      getter_desc   - ()Lorg/rsbot/client/ServerData;
+      owner  - gja
+      name   - l
+      desc   - Lbu;
+ ... #4
+      getter_access - 17
+      getter_name   - getRSInterfaceBoundsArray
+      getter_desc   - ()[Ljava/awt/Rectangle;
+      owner  - tk
+      name   - z
+      desc   - [Ljava/awt/Rectangle;
+ ... #5
+      getter_access - 17
+      getter_name   - isSpellSelected
+      getter_desc   - ()Z
+      owner  - gn
+      name   - c
+      desc   - Z
+ ... #6
+      getter_access - 17
+      getter_name   - getSelectedItemName
+      getter_desc   - ()Ljava/lang/String;
+      owner  - lu
+      name   - t
+      desc   - Ljava/lang/String;
+ ... #7
+      getter_access - 17
+      getter_name   - isItemSelected
+      getter_desc   - ()I
+      owner  - gca
+      name   - d
+      desc   - I
+ ... #8
+      getter_access - 17
+      getter_name   - getMinimapSetting
+      getter_desc   - ()I
+      owner  - cka
+      name   - b
+      desc   - I
+ ... #9
+      getter_access - 17
+      getter_name   - getMinimapOffset
+      getter_desc   - ()F
+      owner  - oq
+      name   - b
+      desc   - F
+ ... #10
+      getter_access - 17
+      getter_name   - getMinimapScale
+      getter_desc   - ()I
+      owner  - pb
+      name   - b
+      desc   - I
+ ... #11
+      getter_access - 17
+      getter_name   - getMinimapAngle
+      getter_desc   - ()I
+      owner  - um
+      name   - c
+      desc   - I
+ ... #12
+      getter_access - 17
+      getter_name   - getRenderData
+      getter_desc   - ()Lorg/rsbot/client/RenderData;
+      owner  - fc
+      name   - t
+      desc   - Lqq;
+ ... #13
+      getter_access - 17
+      getter_name   - getGameRender
+      getter_desc   - ()Lorg/rsbot/client/Render;
+      owner  - pm
+      name   - b
+      desc   - Lha;
+ ... #14
+      getter_access - 17
+      getter_name   - getScreenFactor
+      getter_desc   - ()I
+      owner  - mw
+      name   - h
+      desc   - I
+ ... #15
+      getter_access - 17
+      getter_name   - getSettingArray
+      getter_desc   - ()Lorg/rsbot/client/Settings;
+      owner  - oca
+      name   - l
+      desc   - Lfb;
+ ... #16
+      getter_access - 17
+      getter_name   - getBaseX
+      getter_desc   - ()I
+      owner  - vaa
+      name   - c
+      desc   - I
+ ... #17
+      getter_access - 17
+      getter_name   - getMyRSPlayer
+      getter_desc   - ()Lorg/rsbot/client/RSPlayer;
+      owner  - cea
+      name   - z
+      desc   - Lic;
+ ... #18
+      getter_access - 17
+      getter_name   - getBaseY
+      getter_desc   - ()I
+      owner  - wja
+      name   - B
+      desc   - I
+ ... #19
+      getter_access - 17
+      getter_name   - getDestX
+      getter_desc   - ()I
+      owner  - cq
+      name   - r
+      desc   - I
+ ... #20
+      getter_access - 17
+      getter_name   - getDestY
+      getter_desc   - ()I
+      owner  - wk
+      name   - I
+      desc   - I
+ ... #21
+      getter_access - 17
+      getter_name   - isDestinationSet
+      getter_desc   - ()Z
+      owner  - paa
+      name   - t
+      desc   - Z
+ ... #22
+      getter_access - 17
+      getter_name   - getDetailInfoNode
+      getter_desc   - ()Lorg/rsbot/client/DetailInfoNode;
+      owner  - vja
+      name   - hb
+      desc   - Lhia;
+ ... #23
+      getter_access - 17
+      getter_name   - getRSPlayerIndexArray
+      getter_desc   - ()[I
+      owner  - cs
+      name   - w
+      desc   - [I
+ ... #24
+      getter_access - 17
+      getter_name   - getRSPlayerCount
+      getter_desc   - ()I
+      owner  - dp
+      name   - r
+      desc   - I
+ ... #25
+      getter_access - 17
+      getter_name   - getSkillExperiences
+      getter_desc   - ()[I
+      owner  - dia
+      name   - c
+      desc   - [I
+ ... #26
+      getter_access - 17
+      getter_name   - getSkillLevels
+      getter_desc   - ()[I
+      owner  - mia
+      name   - M
+      desc   - [I
+ ... #27
+      getter_access - 17
+      getter_name   - getSkillLevelMaxes
+      getter_desc   - ()[I
+      owner  - caa
+      name   - j
+      desc   - [I
+ ... #28
+      getter_access - 17
+      getter_name   - getSkillExperiencesMax
+      getter_desc   - ()[I
+      owner  - pia
+      name   - D
+      desc   - [I
+ ... #29
+      getter_access - 17
+      getter_name   - getCamPosX
+      getter_desc   - ()I
+      owner  - sda
+      name   - g
+      desc   - I
+ ... #30
+      getter_access - 17
+      getter_name   - getCamPosY
+      getter_desc   - ()I
+      owner  - qp
+      name   - A
+      desc   - I
+ ... #31
+      getter_access - 17
+      getter_name   - getCamPosZ
+      getter_desc   - ()I
+      owner  - eea
+      name   - k
+      desc   - I
+ ... #32
+      getter_access - 17
+      getter_name   - getCameraPitch
+      getter_desc   - ()I
+      owner  - vw
+      name   - o
+      desc   - I
+ ... #33
+      getter_access - 17
+      getter_name   - getCameraYaw
+      getter_desc   - ()I
+      owner  - fca
+      name   - b
+      desc   - I
+ ... #34
+      getter_access - 17
+      getter_name   - getRSInterfaceNC
+      getter_desc   - ()Lorg/rsbot/client/HashTable;
+      owner  - sp
+      name   - a
+      desc   - Lqha;
+ ... #35
+      getter_access - 17
+      getter_name   - getPublicChatMode
+      getter_desc   - ()I
+      owner  - sha
+      name   - f
+      desc   - I
+ ... #36
+      getter_access - 17
+      getter_name   - getSelfInteracting
+      getter_desc   - ()I
+      owner  - vaa
+      name   - c
+      desc   - I
+ ... #37
+      getter_access - 17
+      getter_name   - getGUIRSInterfaceIndex
+      getter_desc   - ()I
+      owner  - nea
+      name   - T
+      desc   - I
+ ... #38
+      getter_access - 17
+      getter_name   - getLoopCycle
+      getter_desc   - ()I
+      owner  - bga
+      name   - a
+      desc   - I
+ ... #39
+      getter_access - 17
+      getter_name   - getRSGroundDataArray
+      getter_desc   - ()[Lorg/rsbot/client/RSGroundData;
+      owner  - wl
+      name   - f
+      desc   - [Ldja;
+ ... #40
+      getter_access - 17
+      getter_name   - getRSGroundArray
+      getter_desc   - ()[[[Lorg/rsbot/client/RSGround;
+      owner  - ip
+      name   - A
+      desc   - [[[Liia;
+ ... #41
+      getter_access - 17
+      getter_name   - getRSItemHashTable
+      getter_desc   - ()Lorg/rsbot/client/HashTable;
+      owner  - qaa
+      name   - D
+      desc   - Lqha;
+ ... #42
+      getter_access - 17
+      getter_name   - getRSInteractableDefListLoader
+      getter_desc   - ()Lorg/rsbot/client/StatusNodeListLoader;
+      owner  - bl
+      name   - g
+      desc   - Ltw;
+ ... #43
+      getter_access - 17
+      getter_name   - getRSNPCCount
+      getter_desc   - ()I
+      owner  - ie
+      name   - s
+      desc   - I
+ ... #44
+      getter_access - 17
+      getter_name   - getRSNPCIndexArray
+      getter_desc   - ()[I
+      owner  - wm
+      name   - e
+      desc   - [I
+ ... #45
+      getter_access - 17
+      getter_name   - getRSNPCNC
+      getter_desc   - ()Lorg/rsbot/client/HashTable;
+      owner  - vb
+      name   - a
+      desc   - Lqha;
+ ... #46
+      getter_access - 17
+      getter_name   - getGroundByteArray
+      getter_desc   - ()[[[B
+      owner  - hga
+      name   - D
+      desc   - [[[B
+ ... #47
+      getter_access - 17
+      getter_name   - getTileData
+      getter_desc   - ()[Lorg/rsbot/client/TileData;
+      owner  - iba
+      name   - Y
+      desc   - [Ls;
+ ... #48
+      getter_access - 17
+      getter_name   - getPlane
+      getter_desc   - ()I
+      owner  - iaa
+      name   - c
+      desc   - I
+ ... #49
+      getter_access - 17
+      getter_name   - getRSPlayerArray
+      getter_desc   - ()[Lorg/rsbot/client/RSPlayer;
+      owner  - ffa
+      name   - Pg
+      desc   - [Lic;
+ ... #50
+      getter_access - 17
+      getter_name   - getCallback
+      getter_desc   - ()Lorg/rsbot/client/Callback;
+      owner  - client
+      name   - callback
+      desc   - Lorg/rsbot/client/Callback;
+ ... #51
+      getter_access - 17
+      getter_name   - getLoginIndex
+      getter_desc   - ()I
+      owner  - di
+      name   - z
+      desc   - I
+ ... #52
+      getter_access - 17
+      getter_name   - getChatLines
+      getter_desc   - ()[Lorg/rsbot/client/ChatLine;
+      owner  - jba
+      name   - e
+      desc   - [Laha;
+ ... #53
+      getter_access - 17
+      getter_name   - getMouse
+      getter_desc   - ()Lorg/rsbot/client/input/Mouse;
+      owner  - gu
+      name   - c
+      desc   - Lej;
+ ... #54
+      getter_access - 17
+      getter_name   - getRSItemDefLoader
+      getter_desc   - ()Lorg/rsbot/client/RSItemDefLoader;
+      owner  - gq
+      name   - b
+      desc   - Lfj;
+ ... #55
+      getter_access - 17
+      getter_name   - getCanvas
+      getter_desc   - ()Ljava/awt/Canvas;
+      owner  - ap
+      name   - p
+      desc   - Ljava/awt/Canvas;
+ ... #56
+      getter_access - 17
+      getter_name   - getKeyboard
+      getter_desc   - ()Lorg/rsbot/client/input/Keyboard;
+      owner  - im
+      name   - A
+      desc   - Lhv;
+ ... #57
+      getter_access - 17
+      getter_name   - getValidRSInterfaceArray
+      getter_desc   - ()[Z
+      owner  - ws
+      name   - v
+      desc   - [Z
+ ... #58
+      getter_access - 17
+      getter_name   - getCURVESIN
+      getter_desc   - ()[I
+      owner  - sm
+      name   - s
+      desc   - [I
+ ... #59
+      getter_access - 17
+      getter_name   - getCURVECOS
+      getter_desc   - ()[I
+      owner  - sm
+      name   - p
+      desc   - [I
+ ... #60
+      getter_access - 17
+      getter_name   - getRSObjectDefLoader
+      getter_desc   - ()Lorg/rsbot/client/RSObjectDefLoader;
+      owner  - sg
+      name   - x
+      desc   - Lws;
+ ... #61
+      getter_access - 17
+      getter_name   - getMenuItems
+      getter_desc   - ()Lorg/rsbot/client/NodeDeque;
+      owner  - gn
+      name   - e
+      desc   - Lef;
+ ... #62
+      getter_access - 17
+      getter_name   - isMenuOpen
+      getter_desc   - ()Z
+      owner  - sa
+      name   - h
+      desc   - Z
+ ... #63
+      getter_access - 17
+      getter_name   - getCurrentMenuGroupNode
+      getter_desc   - ()Lorg/rsbot/client/MenuGroupNode;
+      owner  - uia
+      name   - e
+      desc   - Lpda;
+ ... #64
+      getter_access - 17
+      getter_name   - getSubMenuX
+      getter_desc   - ()I
+      owner  - wb
+      name   - b
+      desc   - I
+ ... #65
+      getter_access - 17
+      getter_name   - getSubMenuWidth
+      getter_desc   - ()I
+      owner  - qt
+      name   - e
+      desc   - I
+ ... #66
+      getter_access - 17
+      getter_name   - getSubMenuY
+      getter_desc   - ()I
+      owner  - oi
+      name   - e
+      desc   - I
+ ... #67
+      getter_access - 17
+      getter_name   - getSubMenuHeight
+      getter_desc   - ()I
+      owner  - dea
+      name   - c
+      desc   - I
+ ... #68
+      getter_access - 17
+      getter_name   - getMenuOptionsCount
+      getter_desc   - ()I
+      owner  - hf
+      name   - L
+      desc   - I
+ ... #69
+      getter_access - 17
+      getter_name   - getMenuOptionsCountCollapsed
+      getter_desc   - ()I
+      owner  - oi
+      name   - e
+      desc   - I
+ ... #70
+      getter_access - 17
+      getter_name   - isMenuCollapsed
+      getter_desc   - ()Z
+      owner  - kp
+      name   - C
+      desc   - Z
+ ... #71
+      getter_access - 17
+      getter_name   - getMenuX
+      getter_desc   - ()I
+      owner  - la
+      name   - a
+      desc   - I
+ ... #72
+      getter_access - 17
+      getter_name   - getMenuWidth
+      getter_desc   - ()I
+      owner  - rb
+      name   - q
+      desc   - I
+ ... #73
+      getter_access - 17
+      getter_name   - getMenuY
+      getter_desc   - ()I
+      owner  - rg
+      name   - a
+      desc   - I
+ ... #74
+      getter_access - 17
+      getter_name   - getMenuHeight
+      getter_desc   - ()I
+      owner  - bfa
+      name   - a
+      desc   - I
+ ... #75
+      getter_access - 17
+      getter_name   - getCollapsedMenuItems
+      getter_desc   - ()Lorg/rsbot/client/NodeSubQueue;
+      owner  - cq
+      name   - s
+      desc   - Lgq;
+--------------------------
+#145   
+      op     - 3
+      clazz  - iia
+      count  - 7
+ ... #0
+      getter_access - 17
+      getter_name   - getRSAnimableList
+      getter_desc   - ()Lorg/rsbot/client/RSAnimableNode;
+      owner  - iia
+      name   - e
+      desc   - Lpb;
+ ... #1
+      getter_access - 17
+      getter_name   - getFloorDecoration
+      getter_desc   - ()Lorg/rsbot/client/RSInteractable;
+      owner  - iia
+      name   - h
+      desc   - Ldr;
+ ... #2
+      getter_access - 17
+      getter_name   - getWallDecoration2
+      getter_desc   - ()Lorg/rsbot/client/RSInteractable;
+      owner  - iia
+      name   - o
+      desc   - Lqj;
+ ... #3
+      getter_access - 17
+      getter_name   - getWallDecoration1
+      getter_desc   - ()Lorg/rsbot/client/RSInteractable;
+      owner  - iia
+      name   - n
+      desc   - Lqj;
+ ... #4
+      getter_access - 17
+      getter_name   - getBoundary1
+      getter_desc   - ()Lorg/rsbot/client/RSInteractable;
+      owner  - iia
+      name   - f
+      desc   - Lqa;
+ ... #5
+      getter_access - 17
+      getter_name   - getBoundary2
+      getter_desc   - ()Lorg/rsbot/client/RSInteractable;
+      owner  - iia
+      name   - g
+      desc   - Lqa;
+ ... #6
+      getter_access - 17
+      getter_name   - getGroundObject
+      getter_desc   - ()Lorg/rsbot/client/RSGroundEntity;
+      owner  - iia
+      name   - l
+      desc   - Lmia;
+--------------------------
+#144   
+      op     - 3
+      clazz  - eba
+      count  - 2
+ ... #0
+      getter_access - 17
+      getter_name   - getHead
+      getter_desc   - ()Lorg/rsbot/client/StatusNode;
+      owner  - eba
+      name   - i
+      desc   - Lte;
+ ... #1
+      getter_access - 17
+      getter_name   - getNext
+      getter_desc   - ()Lorg/rsbot/client/StatusNode;
+      owner  - eba
+      name   - h
+      desc   - Lte;
+--------------------------
+#143   
+      op     - 3
+      clazz  - tr
+      count  - 1
+ ... #0
+      getter_access - 17
+      getter_name   - getStrings
+      getter_desc   - ()[Ljava/lang/String;
+      owner  - tr
+      name   - y
+      desc   - [Ljava/lang/String;
+--------------------------
+#142   
+      op     - 3
+      clazz  - tp
+      count  - 12
+ ... #0
+      getter_access - 17
+      getter_name   - getXOff
+      getter_desc   - ()F
+      owner  - tp
+      name   - B
+      desc   - F
+ ... #1
+      getter_access - 17
+      getter_name   - getYOff
+      getter_desc   - ()F
+      owner  - tp
+      name   - m
+      desc   - F
+ ... #2
+      getter_access - 17
+      getter_name   - getZOff
+      getter_desc   - ()F
+      owner  - tp
+      name   - j
+      desc   - F
+ ... #3
+      getter_access - 17
+      getter_name   - getZY
+      getter_desc   - ()F
+      owner  - tp
+      name   - q
+      desc   - F
+ ... #4
+      getter_access - 17
+      getter_name   - getYY
+      getter_desc   - ()F
+      owner  - tp
+      name   - M
+      desc   - F
+ ... #5
+      getter_access - 17
+      getter_name   - getXY
+      getter_desc   - ()F
+      owner  - tp
+      name   - w
+      desc   - F
+ ... #6
+      getter_access - 17
+      getter_name   - getYZ
+      getter_desc   - ()F
+      owner  - tp
+      name   - h
+      desc   - F
+ ... #7
+      getter_access - 17
+      getter_name   - getXZ
+      getter_desc   - ()F
+      owner  - tp
+      name   - y
+      desc   - F
+ ... #8
+      getter_access - 17
+      getter_name   - getZZ
+      getter_desc   - ()F
+      owner  - tp
+      name   - C
+      desc   - F
+ ... #9
+      getter_access - 17
+      getter_name   - getZX
+      getter_desc   - ()F
+      owner  - tp
+      name   - N
+      desc   - F
+ ... #10
+      getter_access - 17
+      getter_name   - getYX
+      getter_desc   - ()F
+      owner  - tp
+      name   - r
+      desc   - F
+ ... #11
+      getter_access - 17
+      getter_name   - getXX
+      getter_desc   - ()F
+      owner  - tp
+      name   - t
+      desc   - F
+--------------------------
+#141   
+      op     - 3
+      clazz  - hia
+      count  - 1
+ ... #0
+      getter_access - 17
+      getter_name   - getDetailInfo
+      getter_desc   - ()Lorg/rsbot/client/DetailInfo;
+      owner  - hia
+      name   - H
+      desc   - Lhga;
+--------------------------
+#140   
+      op     - 3
+      clazz  - js
+      count  - 1
+ ... #0
+      getter_access - 17
+      getter_name   - getIndex
+      getter_desc   - ()I
+      owner  - js
+      name   - v
+      desc   - I
+--------------------------
+#139   
+      op     - 3
+      clazz  - qha
+      count  - 1
+ ... #0
+      getter_access - 17
+      getter_name   - getBuckets
+      getter_desc   - ()[Lorg/rsbot/client/Node;
+      owner  - qha
+      name   - d
+      desc   - [Lme;
+--------------------------
+#138   
+      op     - 3
+      clazz  - tf
+      count  - 1
+ ... #0
+      getter_access - 17
+      getter_name   - getRSInteractable
+      getter_desc   - ()Lorg/rsbot/client/RSInteractable;
+      owner  - tf
+      name   - n
+      desc   - Ldf;
+--------------------------
+#137   
+      op     - 3
+      clazz  - te
+      count  - 2
+ ... #0
+      getter_access - 17
+      getter_name   - getPrevious
+      getter_desc   - ()Lorg/rsbot/client/StatusNode;
+      owner  - te
+      name   - k
+      desc   - Lte;
+ ... #1
+      getter_access - 17
+      getter_name   - getNext
+      getter_desc   - ()Lorg/rsbot/client/StatusNode;
+      owner  - te
+      name   - a
+      desc   - Lte;
+--------------------------
+#136   
+      op     - 3
+      clazz  - jn
+      count  - 1
+ ... #0
+      getter_access - 17
+      getter_name   - getModel
+      getter_desc   - ()Lorg/rsbot/client/Model;
+      owner  - jn
+      name   - model
+      desc   - Lorg/rsbot/client/Model;
+--------------------------
+#135   
+      op     - 3
+      clazz  - wda
+      count  - 6
+ ... #0
+      getter_access - 17
+      getter_name   - getXPoints
+      getter_desc   - ()[I
+      owner  - wda
+      name   - gb
+      desc   - [I
+ ... #1
+      getter_access - 17
+      getter_name   - getYPoints
+      getter_desc   - ()[I
+      owner  - wda
+      name   - B
+      desc   - [I
+ ... #2
+      getter_access - 17
+      getter_name   - getZPoints
+      getter_desc   - ()[I
+      owner  - wda
+      name   - Sb
+      desc   - [I
+ ... #3
+      getter_access - 17
+      getter_name   - getIndices1
+      getter_desc   - ()[S
+      owner  - wda
+      name   - D
+      desc   - [S
+ ... #4
+      getter_access - 17
+      getter_name   - getIndices2
+      getter_desc   - ()[S
+      owner  - wda
+      name   - N
+      desc   - [S
+ ... #5
+      getter_access - 17
+      getter_name   - getIndices3
+      getter_desc   - ()[S
+      owner  - wda
+      name   - hb
+      desc   - [S
+--------------------------
+#134   
+      op     - 3
+      clazz  - bba
+      count  - 1
+ ... #0
+      getter_access - 17
+      getter_name   - getModel
+      getter_desc   - ()Lorg/rsbot/client/Model;
+      owner  - bba
+      name   - model
+      desc   - Lorg/rsbot/client/Model;
+--------------------------
+#133   
+      op     - 3
+      clazz  - bu
+      count  - 1
+ ... #0
+      getter_access - 17
+      getter_name   - getWorldID
+      getter_desc   - ()I
+      owner  - bu
+      name   - j
+      desc   - I
+--------------------------
+#132   
+      op     - 3
+      clazz  - nw
+      count  - 2
+ ... #0
+      getter_access - 17
+      getter_name   - getRSNPCDef
+      getter_desc   - ()Lorg/rsbot/client/RSNPCDef;
+      owner  - nw
+      name   - Yc
+      desc   - Lmaa;
+ ... #1
+      getter_access - 17
+      getter_name   - getLevel
+      getter_desc   - ()I
+      owner  - nw
+      name   - Uc
+      desc   - I
+--------------------------
+#131   
+      op     - 3
+      clazz  - fj
+      count  - 2
+ ... #0
+      getter_access - 17
+      getter_name   - isMembers
+      getter_desc   - ()Z
+      owner  - fj
+      name   - d
+      desc   - Z
+ ... #1
+      getter_access - 17
+      getter_name   - getCache
+      getter_desc   - ()Lorg/rsbot/client/Cache;
+      owner  - fj
+      name   - q
+      desc   - Lwq;
+--------------------------
+#130   
+      op     - 3
+      clazz  - tb
+      count  - 1
+ ... #0
+      getter_access - 17
+      getter_name   - getModel
+      getter_desc   - ()Lorg/rsbot/client/Model;
+      owner  - tb
+      name   - J
+      desc   - Lka;
+--------------------------
+#129   
+      op     - 3
+      clazz  - ffa
+      count  - 2
+ ... #0
+      getter_access - 17
+      getter_name   - getXMultiplier
+      getter_desc   - ()I
+      owner  - ffa
+      name   - Kg
+      desc   - I
+ ... #1
+      getter_access - 17
+      getter_name   - getYMultiplier
+      getter_desc   - ()I
+      owner  - ffa
+      name   - T
+      desc   - I
+--------------------------
+#128   
+      op     - 3
+      clazz  - fh
+      count  - 1
+ ... #0
+      getter_access - 17
+      getter_name   - getModel
+      getter_desc   - ()Lorg/rsbot/client/Model;
+      owner  - fh
+      name   - model
+      desc   - Lorg/rsbot/client/Model;
+--------------------------
+#127   
+      op     - 3
+      clazz  - pda
+      count  - 3
+ ... #0
+      getter_access - 17
+      getter_name   - getItems
+      getter_desc   - ()Lorg/rsbot/client/NodeSubQueue;
+      owner  - pda
+      name   - C
+      desc   - Lgq;
+ ... #1
+      getter_access - 17
+      getter_name   - size
+      getter_desc   - ()I
+      owner  - pda
+      name   - E
+      desc   - I
+ ... #2
+      getter_access - 17
+      getter_name   - getOption
+      getter_desc   - ()Ljava/lang/String;
+      owner  - pda
+      name   - s
+      desc   - Ljava/lang/String;
+--------------------------
+#126   
+      op     - 3
+      clazz  - ka
+      count  - 1
+ ... #0
+      getter_access - 17
+      getter_name   - getModels
+      getter_desc   - ()[Lorg/rsbot/client/Model;
+      owner  - ka
+      name   - Ib
+      desc   - [Lka;
+--------------------------
+#125   
+      op     - 3
+      clazz  - ss
+      count  - 1
+ ... #0
+      getter_access - 17
+      getter_name   - getMainID
+      getter_desc   - ()I
+      owner  - ss
+      name   - p
+      desc   - I
+--------------------------
+#124   
+      op     - 3
+      clazz  - vja
+      count  - 1
+ ... #0
+      getter_access - 17
+      getter_name   - getModel
+      getter_desc   - ()Lorg/rsbot/client/Model;
+      owner  - vja
+      name   - model
+      desc   - Lorg/rsbot/client/Model;
+--------------------------
+#123   
+      op     - 3
+      clazz  - gja
+      count  - 1
+ ... #0
+      getter_access - 17
+      getter_name   - getDetailLevel
+      getter_desc   - ()I
+      owner  - gja
+      name   - d
+      desc   - I
+--------------------------
+#122   
+      op     - 3
+      clazz  - ko
+      count  - 8
+ ... #0
+      getter_access - 17
+      getter_name   - getID
+      getter_desc   - ()I
+      owner  - ko
+      name   - Ab
+      desc   - I
+ ... #1
+      getter_access - 17
+      getter_name   - getCertTemplateID
+      getter_desc   - ()I
+      owner  - ko
+      name   - w
+      desc   - I
+ ... #2
+      getter_access - 17
+      getter_name   - isMembersObject
+      getter_desc   - ()Z
+      owner  - ko
+      name   - N
+      desc   - Z
+ ... #3
+      getter_access - 17
+      getter_name   - getName
+      getter_desc   - ()Ljava/lang/String;
+      owner  - ko
+      name   - l
+      desc   - Ljava/lang/String;
+ ... #4
+      getter_access - 17
+      getter_name   - getCertID
+      getter_desc   - ()I
+      owner  - ko
+      name   - wb
+      desc   - I
+ ... #5
+      getter_access - 17
+      getter_name   - getGroundActions
+      getter_desc   - ()[Ljava/lang/String;
+      owner  - ko
+      name   - m
+      desc   - [Ljava/lang/String;
+ ... #6
+      getter_access - 17
+      getter_name   - getActions
+      getter_desc   - ()[Ljava/lang/String;
+      owner  - ko
+      name   - i
+      desc   - [Ljava/lang/String;
+ ... #7
+      getter_access - 17
+      getter_name   - getLoader
+      getter_desc   - ()Lorg/rsbot/client/RSItemDefLoader;
+      owner  - ko
+      name   - H
+      desc   - Lfj;
+--------------------------
+#121   
+      op     - 3
+      clazz  - wq
+      count  - 4
+ ... #0
+      getter_access - 17
+      getter_name   - getList
+      getter_desc   - ()Lorg/rsbot/client/NodeSubQueue;
+      owner  - wq
+      name   - v
+      desc   - Lgq;
+ ... #1
+      getter_access - 17
+      getter_name   - getTable
+      getter_desc   - ()Lorg/rsbot/client/HashTable;
+      owner  - wq
+      name   - f
+      desc   - Lqha;
+ ... #2
+      getter_access - 17
+      getter_name   - getInitialCount
+      getter_desc   - ()I
+      owner  - wq
+      name   - o
+      desc   - I
+ ... #3
+      getter_access - 17
+      getter_name   - getSpaceLeft
+      getter_desc   - ()I
+      owner  - wq
+      name   - s
+      desc   - I
+--------------------------
+#120   
+      op     - 3
+      clazz  - ws
+      count  - 1
+ ... #0
+      getter_access - 17
+      getter_name   - getCache
+      getter_desc   - ()Lorg/rsbot/client/Cache;
+      owner  - ws
+      name   - u
+      desc   - Lwq;
+--------------------------
+#119   
+      op     - 3
+      clazz  - sg
+      count  - 3
+ ... #0
+      getter_access - 17
+      getter_name   - getOption
+      getter_desc   - ()Ljava/lang/String;
+      owner  - sg
+      name   - y
+      desc   - Ljava/lang/String;
+ ... #1
+      getter_access - 17
+      getter_name   - getAction
+      getter_desc   - ()Ljava/lang/String;
+      owner  - sg
+      name   - K
+      desc   - Ljava/lang/String;
+ ... #2
+      getter_access - 17
+      getter_name   - getType
+      getter_desc   - ()I
+      owner  - sg
+      name   - J
+      desc   - I
+--------------------------
+#118   
+      op     - 3
+      clazz  - vv
+      count  - 4
+ ... #0
+      getter_access - 17
+      getter_name   - getX2
+      getter_desc   - ()S
+      owner  - vv
+      name   - E
+      desc   - S
+ ... #1
+      getter_access - 17
+      getter_name   - getY2
+      getter_desc   - ()S
+      owner  - vv
+      name   - N
+      desc   - S
+ ... #2
+      getter_access - 17
+      getter_name   - getX1
+      getter_desc   - ()S
+      owner  - vv
+      name   - H
+      desc   - S
+ ... #3
+      getter_access - 17
+      getter_name   - getY1
+      getter_desc   - ()S
+      owner  - vv
+      name   - C
+      desc   - S
+--------------------------
+#117   
+      op     - 3
+      clazz  - kaa
+      count  - 1
+ ... #0
+      getter_access - 17
+      getter_name   - getReference
+      getter_desc   - ()Ljava/lang/ref/SoftReference;
+      owner  - kaa
+      name   - w
+      desc   - Ljava/lang/ref/SoftReference;
+--------------------------
+#116   
+      op     - 3
+      clazz  - cn
+      count  - 41
+ ... #0
+      getter_access - 17
+      getter_name   - getComponentID
+      getter_desc   - ()I
+      owner  - cn
+      name   - qb
+      desc   - I
+ ... #1
+      getter_access - 17
+      getter_name   - getComponentStackSize
+      getter_desc   - ()I
+      owner  - cn
+      name   - tc
+      desc   - I
+ ... #2
+      getter_access - 17
+      getter_name   - getComponentName
+      getter_desc   - ()Ljava/lang/String;
+      owner  - cn
+      name   - kc
+      desc   - Ljava/lang/String;
+ ... #3
+      getter_access - 17
+      getter_name   - getX
+      getter_desc   - ()I
+      owner  - cn
+      name   - Ac
+      desc   - I
+ ... #4
+      getter_access - 17
+      getter_name   - getY
+      getter_desc   - ()I
+      owner  - cn
+      name   - c
+      desc   - I
+ ... #5
+      getter_access - 17
+      getter_name   - getWidth
+      getter_desc   - ()I
+      owner  - cn
+      name   - wc
+      desc   - I
+ ... #6
+      getter_access - 17
+      getter_name   - getHeight
+      getter_desc   - ()I
+      owner  - cn
+      name   - rd
+      desc   - I
+ ... #7
+      getter_access - 17
+      getter_name   - getActions
+      getter_desc   - ()[Ljava/lang/String;
+      owner  - cn
+      name   - Rc
+      desc   - [Ljava/lang/String;
+ ... #8
+      getter_access - 17
+      getter_name   - getText
+      getter_desc   - ()Ljava/lang/String;
+      owner  - cn
+      name   - nc
+      desc   - Ljava/lang/String;
+ ... #9
+      getter_access - 17
+      getter_name   - getTextureID
+      getter_desc   - ()I
+      owner  - cn
+      name   - jd
+      desc   - I
+ ... #10
+      getter_access - 17
+      getter_name   - getTextColor
+      getter_desc   - ()I
+      owner  - cn
+      name   - q
+      desc   - I
+ ... #11
+      getter_access - 17
+      getter_name   - getModelZoom
+      getter_desc   - ()I
+      owner  - cn
+      name   - eb
+      desc   - I
+ ... #12
+      getter_access - 17
+      getter_name   - getID
+      getter_desc   - ()I
+      owner  - cn
+      name   - T
+      desc   - I
+ ... #13
+      getter_access - 17
+      getter_name   - getModelID
+      getter_desc   - ()I
+      owner  - cn
+      name   - ub
+      desc   - I
+ ... #14
+      getter_access - 17
+      getter_name   - getModelType
+      getter_desc   - ()I
+      owner  - cn
+      name   - sb
+      desc   - I
+ ... #15
+      getter_access - 17
+      getter_name   - getBorderThickness
+      getter_desc   - ()I
+      owner  - cn
+      name   - fc
+      desc   - I
+ ... #16
+      getter_access - 17
+      getter_name   - getComponentIndex
+      getter_desc   - ()I
+      owner  - cn
+      name   - o
+      desc   - I
+ ... #17
+      getter_access - 17
+      getter_name   - getHorizontalScrollBarSize
+      getter_desc   - ()I
+      owner  - cn
+      name   - Y
+      desc   - I
+ ... #18
+      getter_access - 17
+      getter_name   - getHorizontalScrollBarThumbPosition
+      getter_desc   - ()I
+      owner  - cn
+      name   - nd
+      desc   - I
+ ... #19
+      getter_access - 17
+      getter_name   - getHorizontalScrollBarThumbSize
+      getter_desc   - ()I
+      owner  - cn
+      name   - xc
+      desc   - I
+ ... #20
+      getter_access - 17
+      getter_name   - getParentID
+      getter_desc   - ()I
+      owner  - cn
+      name   - a
+      desc   - I
+ ... #21
+      getter_access - 17
+      getter_name   - getSelectedActionName
+      getter_desc   - ()Ljava/lang/String;
+      owner  - cn
+      name   - Oc
+      desc   - Ljava/lang/String;
+ ... #22
+      getter_access - 17
+      getter_name   - getToolTip
+      getter_desc   - ()Ljava/lang/String;
+      owner  - cn
+      name   - Hb
+      desc   - Ljava/lang/String;
+ ... #23
+      getter_access - 17
+      getter_name   - getType
+      getter_desc   - ()I
+      owner  - cn
+      name   - Yb
+      desc   - I
+ ... #24
+      getter_access - 17
+      getter_name   - getVerticalScrollBarSize
+      getter_desc   - ()I
+      owner  - cn
+      name   - p
+      desc   - I
+ ... #25
+      getter_access - 17
+      getter_name   - getVerticalScrollBarPosition
+      getter_desc   - ()I
+      owner  - cn
+      name   - ic
+      desc   - I
+ ... #26
+      getter_access - 17
+      getter_name   - getVerticalScrollBarThumbSize
+      getter_desc   - ()I
+      owner  - cn
+      name   - Ec
+      desc   - I
+ ... #27
+      getter_access - 17
+      getter_name   - getYRotation
+      getter_desc   - ()I
+      owner  - cn
+      name   - I
+      desc   - I
+ ... #28
+      getter_access - 17
+      getter_name   - getZRotation
+      getter_desc   - ()I
+      owner  - cn
+      name   - pd
+      desc   - I
+ ... #29
+      getter_access - 17
+      getter_name   - getXRotation
+      getter_desc   - ()I
+      owner  - cn
+      name   - bc
+      desc   - I
+ ... #30
+      getter_access - 17
+      getter_name   - isHorizontallyFlipped
+      getter_desc   - ()Z
+      owner  - cn
+      name   - Hc
+      desc   - Z
+ ... #31
+      getter_access - 17
+      getter_name   - isVerticallyFlipped
+      getter_desc   - ()Z
+      owner  - cn
+      name   - Gc
+      desc   - Z
+ ... #32
+      getter_access - 17
+      getter_name   - getShadowColor
+      getter_desc   - ()I
+      owner  - cn
+      name   - Mc
+      desc   - I
+ ... #33
+      getter_access - 17
+      getter_name   - isInventoryInterface
+      getter_desc   - ()Z
+      owner  - cn
+      name   - Sc
+      desc   - Z
+ ... #34
+      getter_access - 17
+      getter_name   - getWidth2
+      getter_desc   - ()I
+      owner  - cn
+      name   - xc
+      desc   - I
+ ... #35
+      getter_access - 17
+      getter_name   - getHeight2
+      getter_desc   - ()I
+      owner  - cn
+      name   - Ec
+      desc   - I
+ ... #36
+      getter_access - 17
+      getter_name   - getComponents
+      getter_desc   - ()[Lorg/rsbot/client/RSInterface;
+      owner  - cn
+      name   - mb
+      desc   - [Lcn;
+ ... #37
+      getter_access - 17
+      getter_name   - getBoundsArrayIndex
+      getter_desc   - ()I
+      owner  - cn
+      name   - wb
+      desc   - I
+ ... #38
+      getter_access - 17
+      getter_name   - getSpecialType
+      getter_desc   - ()I
+      owner  - cn
+      name   - Rb
+      desc   - I
+ ... #39
+      getter_access - 17
+      getter_name   - getMasterX
+      getter_desc   - ()I
+      owner  - cn
+      name   - masterX
+      desc   - I
+ ... #40
+      getter_access - 17
+      getter_name   - getMasterY
+      getter_desc   - ()I
+      owner  - cn
+      name   - masterY
+      desc   - I
+--------------------------
+#115   
+      op     - 3
+      clazz  - pb
+      count  - 2
+ ... #0
+      getter_access - 17
+      getter_name   - getNext
+      getter_desc   - ()Lorg/rsbot/client/RSAnimableNode;
+      owner  - pb
+      name   - a
+      desc   - Lpb;
+ ... #1
+      getter_access - 17
+      getter_name   - getRSAnimable
+      getter_desc   - ()Lorg/rsbot/client/RSAnimable;
+      owner  - pb
+      name   - d
+      desc   - Lvv;
+--------------------------
+#114   
+      op     - 3
+      clazz  - afa
+      count  - 1
+ ... #0
+      getter_access - 17
+      getter_name   - getModel
+      getter_desc   - ()Lorg/rsbot/client/Model;
+      owner  - afa
+      name   - model
+      desc   - Lorg/rsbot/client/Model;
+--------------------------
+#113   
+      op     - 3
+      clazz  - gv
+      count  - 1
+ ... #0
+      getter_access - 17
+      getter_name   - get
+      getter_desc   - ()Ljava/lang/Object;
+      owner  - gv
+      name   - A
+      desc   - Ljava/lang/Object;
+--------------------------
+#112   
+      op     - 3
+      clazz  - gs
+      count  - 1
+ ... #0
+      getter_access - 17
+      getter_name   - getID
+      getter_desc   - ()I
+      owner  - gs
+      name   - d
+      desc   - I
+--------------------------
+#111   
+      op     - 3
+      clazz  - gq
+      count  - 2
+ ... #0
+      getter_access - 17
+      getter_name   - getTail
+      getter_desc   - ()Lorg/rsbot/client/NodeSub;
+      owner  - gq
+      name   - g
+      desc   - Lcja;
+ ... #1
+      getter_access - 17
+      getter_name   - getCurrent
+      getter_desc   - ()Lorg/rsbot/client/NodeSub;
+      owner  - gq
+      name   - e
+      desc   - Lcja;
+--------------------------
+#110   
+      op     - 3
+      clazz  - dja
+      count  - 3
+ ... #0
+      getter_access - 17
+      getter_name   - getBlocks
+      getter_desc   - ()[[I
+      owner  - dja
+      name   - G
+      desc   - [[I
+ ... #1
+      getter_access - 17
+      getter_name   - getY
+      getter_desc   - ()I
+      owner  - dja
+      name   - d
+      desc   - I
+ ... #2
+      getter_access - 17
+      getter_name   - getX
+      getter_desc   - ()I
+      owner  - dja
+      name   - f
+      desc   - I
+--------------------------
+#109   
+      op     - 3
+      clazz  - ll
+      count  - 1
+ ... #0
+      getter_access - 17
+      getter_name   - getRSNPC
+      getter_desc   - ()Lorg/rsbot/client/RSNPC;
+      owner  - ll
+      name   - p
+      desc   - Lnw;
+--------------------------
+#108   
+      op     - 3
+      clazz  - maa
+      count  - 3
+ ... #0
+      getter_access - 17
+      getter_name   - getName
+      getter_desc   - ()Ljava/lang/String;
+      owner  - maa
+      name   - h
+      desc   - Ljava/lang/String;
+ ... #1
+      getter_access - 17
+      getter_name   - getActions
+      getter_desc   - ()[Ljava/lang/String;
+      owner  - maa
+      name   - fb
+      desc   - [Ljava/lang/String;
+ ... #2
+      getter_access - 17
+      getter_name   - getType
+      getter_desc   - ()I
+      owner  - maa
+      name   - qb
+      desc   - I
+--------------------------
+#107   
+      op     - 3
+      clazz  - ec
+      count  - 13
+ ... #0
+      getter_access - 17
+      getter_name   - getLocationX
+      getter_desc   - ()[I
+      owner  - ec
+      name   - T
+      desc   - [I
+ ... #1
+      getter_access - 17
+      getter_name   - getLocationY
+      getter_desc   - ()[I
+      owner  - ec
+      name   - Kc
+      desc   - [I
+ ... #2
+      getter_access - 17
+      getter_name   - getMessage
+      getter_desc   - ()Ljava/lang/String;
+      owner  - ec
+      name   - Ic
+      desc   - Ljava/lang/String;
+ ... #3
+      getter_access - 17
+      getter_name   - getOrientation
+      getter_desc   - ()I
+      owner  - ec
+      name   - Ab
+      desc   - I
+ ... #4
+      getter_access - 17
+      getter_name   - getHeight
+      getter_desc   - ()I
+      owner  - ec
+      name   - Yb
+      desc   - I
+ ... #5
+      getter_access - 17
+      getter_name   - getCurrentAnimationFrame
+      getter_desc   - ()I
+      owner  - ec
+      name   - uc
+      desc   - I
+ ... #6
+      getter_access - 17
+      getter_name   - getInteracting
+      getter_desc   - ()I
+      owner  - ec
+      name   - Nc
+      desc   - I
+ ... #7
+      getter_access - 17
+      getter_name   - getHPRatio
+      getter_desc   - ()I
+      owner  - ec
+      name   - Dc
+      desc   - I
+ ... #8
+      getter_access - 17
+      getter_name   - getGraphicsData
+      getter_desc   - ()[Lorg/rsbot/client/Graphic;
+      owner  - ec
+      name   - rc
+      desc   - [Lgs;
+ ... #9
+      getter_access - 17
+      getter_name   - getModel
+      getter_desc   - ()Lorg/rsbot/client/Model;
+      owner  - ec
+      name   - model
+      desc   - Lorg/rsbot/client/Model;
+ ... #10
+      getter_access - 17
+      getter_name   - getAnimation
+      getter_desc   - ()I
+      owner  - ec
+      name   - Sb
+      desc   - I
+ ... #11
+      getter_access - 17
+      getter_name   - isMoving
+      getter_desc   - ()I
+      owner  - ec
+      name   - Xb
+      desc   - I
+ ... #12
+      getter_access - 17
+      getter_name   - getLoopCycleStatus
+      getter_desc   - ()I
+      owner  - ec
+      name   - U
+      desc   - I
+--------------------------
+#106   
+      op     - 3
+      clazz  - cja
+      count  - 2
+ ... #0
+      getter_access - 17
+      getter_name   - getPrevSub
+      getter_desc   - ()Lorg/rsbot/client/NodeSub;
+      owner  - cja
+      name   - n
+      desc   - Lcja;
+ ... #1
+      getter_access - 17
+      getter_name   - getNextSub
+      getter_desc   - ()Lorg/rsbot/client/NodeSub;
+      owner  - cja
+      name   - p
+      desc   - Lcja;
+--------------------------
+#105   
+      op     - 3
+      clazz  - ic
+      count  - 4
+ ... #0
+      getter_access - 17
+      getter_name   - getName
+      getter_desc   - ()Ljava/lang/String;
+      owner  - ic
+      name   - rd
+      desc   - Ljava/lang/String;
+ ... #1
+      getter_access - 17
+      getter_name   - getTeam
+      getter_desc   - ()I
+      owner  - ic
+      name   - Kd
+      desc   - I
+ ... #2
+      getter_access - 17
+      getter_name   - getLevel
+      getter_desc   - ()I
+      owner  - ic
+      name   - Ld
+      desc   - I
+ ... #3
+      getter_access - 17
+      getter_name   - getComposite
+      getter_desc   - ()Lorg/rsbot/client/RSPlayerComposite;
+      owner  - ic
+      name   - Vc
+      desc   - Lee;
+--------------------------
+#104   
+      op     - 3
+      clazz  - df
+      count  - 3
+ ... #0
+      getter_access - 17
+      getter_name   - getPlane
+      getter_desc   - ()B
+      owner  - df
+      name   - v
+      desc   - B
+ ... #1
+      getter_access - 17
+      getter_name   - getX
+      getter_desc   - ()I
+      owner  - df
+      name   - B
+      desc   - I
+ ... #2
+      getter_access - 17
+      getter_name   - getY
+      getter_desc   - ()I
+      owner  - df
+      name   - r
+      desc   - I
+--------------------------
+#103   
+      op     - 3
+      clazz  - me
+      count  - 3
+ ... #0
+      getter_access - 17
+      getter_name   - getNext
+      getter_desc   - ()Lorg/rsbot/client/Node;
+      owner  - me
+      name   - b
+      desc   - Lme;
+ ... #1
+      getter_access - 17
+      getter_name   - getPrevious
+      getter_desc   - ()Lorg/rsbot/client/Node;
+      owner  - me
+      name   - a
+      desc   - Lme;
+ ... #2
+      getter_access - 17
+      getter_name   - getID
+      getter_desc   - ()J
+      owner  - me
+      name   - i
+      desc   - J
+--------------------------
+#102   
+      op     - 3
+      clazz  - nea
+      count  - 1
+ ... #0
+      getter_access - 17
+      getter_name   - getModel
+      getter_desc   - ()Lorg/rsbot/client/Model;
+      owner  - nea
+      name   - R
+      desc   - Lka;
+--------------------------
+#101   
+      op     - 3
+      clazz  - it
+      count  - 1
+ ... #0
+      getter_access - 17
+      getter_name   - getNodeList
+      getter_desc   - ()Lorg/rsbot/client/NodeDeque;
+      owner  - it
+      name   - n
+      desc   - Lef;
+--------------------------
+#100   
+      op     - 3
+      clazz  - ev
+      count  - 2
+ ... #0
+      getter_access - 17
+      getter_name   - getID
+      getter_desc   - ()I
+      owner  - ev
+      name   - m
+      desc   - I
+ ... #1
+      getter_access - 17
+      getter_name   - getStackSize
+      getter_desc   - ()I
+      owner  - ev
+      name   - l
+      desc   - I
+--------------------------
+#99    
+      op     - 3
+      clazz  - mo
+      count  - 1
+ ... #0
+      getter_access - 17
+      getter_name   - getModel
+      getter_desc   - ()Lorg/rsbot/client/Model;
+      owner  - mo
+      name   - Z
+      desc   - Lka;
+--------------------------
+#98    
+      op     - 3
+      clazz  - c
+      count  - 4
+ ... #0
+      getter_access - 17
+      getter_name   - getName
+      getter_desc   - ()Ljava/lang/String;
+      owner  - c
+      name   - vb
+      desc   - Ljava/lang/String;
+ ... #1
+      getter_access - 17
+      getter_name   - getActions
+      getter_desc   - ()[Ljava/lang/String;
+      owner  - c
+      name   - K
+      desc   - [Ljava/lang/String;
+ ... #2
+      getter_access - 17
+      getter_name   - getChildrenIDs
+      getter_desc   - ()[I
+      owner  - c
+      name   - fb
+      desc   - [I
+ ... #3
+      getter_access - 17
+      getter_name   - getLoader
+      getter_desc   - ()Lorg/rsbot/client/RSObjectDefLoader;
+      owner  - c
+      name   - Cb
+      desc   - Lws;
+--------------------------
+#97    
+      op     - 3
+      clazz  - fb
+      count  - 1
+ ... #0
+      getter_access - 17
+      getter_name   - getData
+      getter_desc   - ()[I
+      owner  - fb
+      name   - c
+      desc   - [I
+--------------------------
+#96    
+      op     - 3
+      clazz  - aha
+      count  - 2
+ ... #0
+      getter_access - 17
+      getter_name   - getMessage
+      getter_desc   - ()Ljava/lang/String;
+      owner  - aha
+      name   - c
+      desc   - Ljava/lang/String;
+ ... #1
+      getter_access - 17
+      getter_name   - getName
+      getter_desc   - ()Ljava/lang/String;
+      owner  - aha
+      name   - j
+      desc   - Ljava/lang/String;
+--------------------------
+#95    
+      op     - 3
+      clazz  - ef
+      count  - 2
+ ... #0
+      getter_access - 17
+      getter_name   - getTail
+      getter_desc   - ()Lorg/rsbot/client/Node;
+      owner  - ef
+      name   - b
+      desc   - Lme;
+ ... #1
+      getter_access - 17
+      getter_name   - getCurrent
+      getter_desc   - ()Lorg/rsbot/client/Node;
+      owner  - ef
+      name   - s
+      desc   - Lme;
+--------------------------
+#94    
+      op     - 3
+      clazz  - ee
+      count  - 1
+ ... #0
+      getter_access - 17
+      getter_name   - getNPCID
+      getter_desc   - ()I
+      owner  - ee
+      name   - i
+      desc   - I
+--------------------------
+#93    
+      op     - 3
+      clazz  - s
+      count  - 1
+ ... #0
+      getter_access - 17
+      getter_name   - getHeights
+      getter_desc   - ()[[I
+      owner  - s
+      name   - c
+      desc   - [[I
+--------------------------
+#92    
+      op     - 3
+      clazz  - cba
+      count  - 9
+ ... #0
+      getter_access - 17
+      getter_name   - getXMultiplier
+      getter_desc   - ()I
+      owner  - cba
+      name   - B
+      desc   - I
+ ... #1
+      getter_access - 17
+      getter_name   - getYMultiplier
+      getter_desc   - ()I
+      owner  - cba
+      name   - z
+      desc   - I
+ ... #2
+      getter_access - 17
+      getter_name   - getRenderData
+      getter_desc   - ()Lorg/rsbot/client/RenderData;
+      owner  - cba
+      name   - ab
+      desc   - Ltp;
+ ... #3
+      getter_access - 17
+      getter_name   - getAbsoluteX1
+      getter_desc   - ()I
+      owner  - cba
+      name   - ib
+      desc   - I
+ ... #4
+      getter_access - 17
+      getter_name   - getAbsoluteY1
+      getter_desc   - ()I
+      owner  - cba
+      name   - R
+      desc   - I
+ ... #5
+      getter_access - 17
+      getter_name   - getAbsoluteX2
+      getter_desc   - ()I
+      owner  - cba
+      name   - ob
+      desc   - I
+ ... #6
+      getter_access - 17
+      getter_name   - getAbsoluteY2
+      getter_desc   - ()I
+      owner  - cba
+      name   - Q
+      desc   - I
+ ... #7
+      getter_access - 17
+      getter_name   - getZNear
+      getter_desc   - ()I
+      owner  - cba
+      name   - mb
+      desc   - I
+ ... #8
+      getter_access - 17
+      getter_name   - getZFar
+      getter_desc   - ()I
+      owner  - cba
+      name   - X
+      desc   - I
+--------------------------
+#91    
+      op     - 3
+      clazz  - tw
+      count  - 1
+ ... #0
+      getter_access - 17
+      getter_name   - getList
+      getter_desc   - ()Lorg/rsbot/client/StatusNodeList;
+      owner  - tw
+      name   - b
+      desc   - Leba;
+--------------------------
+#90    
+      op     - 3
+      clazz  - af
+      count  - 1
+ ... #0
+      getter_access - 17
+      getter_name   - getModel
+      getter_desc   - ()Lorg/rsbot/client/Model;
+      owner  - af
+      name   - Y
+      desc   - Lka;
+--------------------------
+#89    
+      op     - 4
+      count  - 1
+ ... #0
+      idx    - 0
+      access - 1
+      name   - model
+      desc   - Lorg/rsbot/client/Model;
+--------------------------
+#88    
+      op     - 4
+      count  - 1
+ ... #0
+      idx    - 0
+      access - 9
+      name   - callback
+      desc   - Lorg/rsbot/client/Callback;
+--------------------------
+#87    
+      op     - 4
+      count  - 2
+ ... #0
+      idx    - 0
+      access - 0
+      name   - masterX
+      desc   - I
+ ... #1
+      idx    - 1
+      access - 0
+      name   - masterY
+      desc   - I
+--------------------------
+#86    
+      op     - 4
+      count  - 1
+ ... #0
+      idx    - 0
+      access - 0
+      name   - model
+      desc   - Lorg/rsbot/client/Model;
+--------------------------
+#85    
+      op     - 4
+      count  - 1
+ ... #0
+      idx    - 0
+      access - 0
+      name   - model
+      desc   - Lorg/rsbot/client/Model;
+--------------------------
+#84    
+      op     - 4
+      count  - 1
+ ... #0
+      idx    - 0
+      access - 0
+      name   - model
+      desc   - Lorg/rsbot/client/Model;
+--------------------------
+#83    
+      op     - 4
+      count  - 1
+ ... #0
+      idx    - 0
+      access - 0
+      name   - model
+      desc   - Lorg/rsbot/client/Model;
+--------------------------
+#82    
+      op     - 4
+      count  - 1
+ ... #0
+      idx    - 0
+      access - 1
+      name   - model
+      desc   - Lorg/rsbot/client/Model;
+--------------------------
+#81    
+      op     - 5
+      clazz  - mo
+      count  - 1
+ ... #0
+     access  - 1
+     name    - getID
+     desc    - ()I
+     code    - [B@1fe88d
+     max_loc - 1
+     max_stk - 2
+--------------------------
+#80    
+      op     - 5
+      clazz  - client
+      count  - 1
+ ... #0
+     access  - 17
+     name    - setCallback
+     desc    - (Lorg/rsbot/client/Callback;)V
+     code    - [B@b60b93
+     max_loc - 2
+     max_stk - 1
+--------------------------
+#79    
+      op     - 5
+      clazz  - tb
+      count  - 1
+ ... #0
+     access  - 1
+     name    - getID
+     desc    - ()I
+     code    - [B@1b1fbf4
+     max_loc - 1
+     max_stk - 2
+--------------------------
+#78    
+      op     - 5
+      clazz  - afa
+      count  - 1
+ ... #0
+     access  - 1
+     name    - getID
+     desc    - ()I
+     code    - [B@148662
+     max_loc - 1
+     max_stk - 2
+--------------------------
+#77    
+      op     - 5
+      clazz  - fh
+      count  - 1
+ ... #0
+     access  - 1
+     name    - getID
+     desc    - ()I
+     code    - [B@1829e6f
+     max_loc - 1
+     max_stk - 2
+--------------------------
+#76    
+      op     - 5
+      clazz  - jn
+      count  - 1
+ ... #0
+     access  - 1
+     name    - getID
+     desc    - ()I
+     code    - [B@6fa9fc
+     max_loc - 1
+     max_stk - 2
+--------------------------
+#75    
+      op     - 5
+      clazz  - nea
+      count  - 1
+ ... #0
+     access  - 1
+     name    - getID
+     desc    - ()I
+     code    - [B@100ebec
+     max_loc - 1
+     max_stk - 2
+--------------------------
+#74    
+      op     - 5
+      clazz  - bba
+      count  - 1
+ ... #0
+     access  - 1
+     name    - getID
+     desc    - ()I
+     code    - [B@180f96c
+     max_loc - 1
+     max_stk - 2
+--------------------------
+#73    
+      op     - 5
+      clazz  - af
+      count  - 1
+ ... #0
+     access  - 1
+     name    - getID
+     desc    - ()I
+     code    - [B@7736bd
+     max_loc - 1
+     max_stk - 2
+--------------------------
+#72    
+      op     - 6
+      clazz  - aha
+      inter  - org/rsbot/client/ChatLine
+--------------------------
+#71    
+      op     - 6
+      clazz  - cn
+      inter  - org/rsbot/client/RSInterface
+--------------------------
+#70    
+      op     - 6
+      clazz  - ss
+      inter  - org/rsbot/client/RSInterfaceNode
+--------------------------
+#69    
+      op     - 6
+      clazz  - bu
+      inter  - org/rsbot/client/ServerData
+--------------------------
+#68    
+      op     - 6
+      clazz  - me
+      inter  - org/rsbot/client/Node
+--------------------------
+#67    
+      op     - 6
+      clazz  - qq
+      inter  - org/rsbot/client/RenderData
+--------------------------
+#66    
+      op     - 6
+      clazz  - ha
+      inter  - org/rsbot/client/Render
+--------------------------
+#65    
+      op     - 6
+      clazz  - fb
+      inter  - org/rsbot/client/Settings
+--------------------------
+#64    
+      op     - 6
+      clazz  - te
+      inter  - org/rsbot/client/StatusNode
+--------------------------
+#63    
+      op     - 6
+      clazz  - ic
+      inter  - org/rsbot/client/RSPlayer
+--------------------------
+#62    
+      op     - 6
+      clazz  - ec
+      inter  - org/rsbot/client/RSCharacter
+--------------------------
+#61    
+      op     - 6
+      clazz  - vv
+      inter  - org/rsbot/client/RSAnimable
+--------------------------
+#60    
+      op     - 6
+      clazz  - hia
+      inter  - org/rsbot/client/DetailInfoNode
+--------------------------
+#59    
+      op     - 6
+      clazz  - gja
+      inter  - org/rsbot/client/DetailInfo
+--------------------------
+#58    
+      op     - 6
+      clazz  - gs
+      inter  - org/rsbot/client/Graphic
+--------------------------
+#57    
+      op     - 6
+      clazz  - qha
+      inter  - org/rsbot/client/HashTable
+--------------------------
+#56    
+      op     - 6
+      clazz  - df
+      inter  - org/rsbot/client/RSInteractable
+--------------------------
+#55    
+      op     - 6
+      clazz  - ko
+      inter  - org/rsbot/client/RSItemDef
+--------------------------
+#54    
+      op     - 6
+      clazz  - ka
+      inter  - org/rsbot/client/Model
+--------------------------
+#53    
+      op     - 6
+      clazz  - wda
+      inter  - org/rsbot/client/LDModel
+--------------------------
+#52    
+      op     - 6
+      clazz  - cja
+      inter  - org/rsbot/client/NodeSub
+--------------------------
+#51    
+      op     - 6
+      clazz  - eba
+      inter  - org/rsbot/client/StatusNodeList
+--------------------------
+#50    
+      op     - 6
+      clazz  - pb
+      inter  - org/rsbot/client/RSAnimableNode
+--------------------------
+#49    
+      op     - 6
+      clazz  - ee
+      inter  - org/rsbot/client/RSPlayerComposite
+--------------------------
+#48    
+      op     - 6
+      clazz  - dja
+      inter  - org/rsbot/client/RSGroundData
+--------------------------
+#47    
+      op     - 6
+      clazz  - iia
+      inter  - org/rsbot/client/RSGround
+--------------------------
+#46    
+      op     - 6
+      clazz  - mia
+      inter  - org/rsbot/client/RSGroundEntity
+--------------------------
+#45    
+      op     - 6
+      clazz  - ev
+      inter  - org/rsbot/client/RSItem
+--------------------------
+#44    
+      op     - 6
+      clazz  - gq
+      inter  - org/rsbot/client/NodeSubQueue
+--------------------------
+#43    
+      op     - 6
+      clazz  - kaa
+      inter  - org/rsbot/client/SoftReference
+--------------------------
+#42    
+      op     - 6
+      clazz  - js
+      inter  - org/rsbot/client/Reference
+--------------------------
+#41    
+      op     - 6
+      clazz  - gv
+      inter  - org/rsbot/client/HardReference
+--------------------------
+#40    
+      op     - 6
+      clazz  - tw
+      inter  - org/rsbot/client/StatusNodeListLoader
+--------------------------
+#39    
+      op     - 6
+      clazz  - wq
+      inter  - org/rsbot/client/Cache
+--------------------------
+#38    
+      op     - 6
+      clazz  - tf
+      inter  - org/rsbot/client/RSInteractableDef
+--------------------------
+#37    
+      op     - 6
+      clazz  - pda
+      inter  - org/rsbot/client/MenuGroupNode
+--------------------------
+#36    
+      op     - 6
+      clazz  - ef
+      inter  - org/rsbot/client/NodeDeque
+--------------------------
+#35    
+      op     - 6
+      clazz  - nw
+      inter  - org/rsbot/client/RSNPC
+--------------------------
+#34    
+      op     - 6
+      clazz  - maa
+      inter  - org/rsbot/client/RSNPCDef
+--------------------------
+#33    
+      op     - 6
+      clazz  - nea
+      inter  - org/rsbot/client/RSObject
+--------------------------
+#32    
+      op     - 6
+      clazz  - bba
+      inter  - org/rsbot/client/RSObject
+--------------------------
+#31    
+      op     - 6
+      clazz  - nc
+      inter  - org/rsbot/client/RSObjectComposite
+--------------------------
+#30    
+      op     - 6
+      clazz  - afa
+      inter  - org/rsbot/client/RSObject
+--------------------------
+#29    
+      op     - 6
+      clazz  - tb
+      inter  - org/rsbot/client/RSObject
+--------------------------
+#28    
+      op     - 6
+      clazz  - af
+      inter  - org/rsbot/client/RSObject
+--------------------------
+#27    
+      op     - 6
+      clazz  - fh
+      inter  - org/rsbot/client/RSObject
+--------------------------
+#26    
+      op     - 6
+      clazz  - jn
+      inter  - org/rsbot/client/RSObject
+--------------------------
+#25    
+      op     - 6
+      clazz  - mo
+      inter  - org/rsbot/client/RSObject
+--------------------------
+#24    
+      op     - 6
+      clazz  - s
+      inter  - org/rsbot/client/TileData
+--------------------------
+#23    
+      op     - 6
+      clazz  - vja
+      inter  - org/rsbot/client/RSGroundObject
+--------------------------
+#22    
+      op     - 6
+      clazz  - sg
+      inter  - org/rsbot/client/MenuItemNode
+--------------------------
+#21    
+      op     - 6
+      clazz  - it
+      inter  - org/rsbot/client/NodeListCache
+--------------------------
+#20    
+      op     - 6
+      clazz  - ll
+      inter  - org/rsbot/client/RSNPCNode
+--------------------------
+#19    
+      op     - 6
+      clazz  - fj
+      inter  - org/rsbot/client/RSItemDefLoader
+--------------------------
+#18    
+      op     - 6
+      clazz  - client
+      inter  - org/rsbot/client/Client
+--------------------------
+#17    
+      op     - 6
+      clazz  - ws
+      inter  - org/rsbot/client/RSObjectDefLoader
+--------------------------
+#16    
+      op     - 6
+      clazz  - c
+      inter  - org/rsbot/client/RSObjectDef
+--------------------------
+#15    
+      op     - 7
+      clazz  - ida
+      super  - org/rsbot/client/input/Canvas
+--------------------------
+#14    
+      op     - 7
+      clazz  - hv
+      super  - org/rsbot/client/input/Keyboard
+--------------------------
+#13    
+      op     - 7
+      clazz  - ej
+      super  - org/rsbot/client/input/Mouse
+--------------------------
+#12    
+      op     - 8
+      clazz  - dka
+      count  - 5
+ ... #0
+      name       - keyReleased
+      desc       - (Ljava/awt/event/KeyEvent;)V
+      new_access - 49
+      new_name   - _keyReleased
+      new_desc   - (Ljava/awt/event/KeyEvent;)V
+ ... #1
+      name       - keyPressed
+      desc       - (Ljava/awt/event/KeyEvent;)V
+      new_access - 49
+      new_name   - _keyPressed
+      new_desc   - (Ljava/awt/event/KeyEvent;)V
+ ... #2
+      name       - keyTyped
+      desc       - (Ljava/awt/event/KeyEvent;)V
+      new_access - 49
+      new_name   - _keyTyped
+      new_desc   - (Ljava/awt/event/KeyEvent;)V
+ ... #3
+      name       - focusLost
+      desc       - (Ljava/awt/event/FocusEvent;)V
+      new_access - 49
+      new_name   - _focusLost
+      new_desc   - (Ljava/awt/event/FocusEvent;)V
+ ... #4
+      name       - focusGained
+      desc       - (Ljava/awt/event/FocusEvent;)V
+      new_access - 17
+      new_name   - _focusGained
+      new_desc   - (Ljava/awt/event/FocusEvent;)V
+--------------------------
+#11    
+      op     - 8
+      clazz  - jga
+      count  - 7
+ ... #0
+      name       - mousePressed
+      desc       - (Ljava/awt/event/MouseEvent;)V
+      new_access - 49
+      new_name   - _mousePressed
+      new_desc   - (Ljava/awt/event/MouseEvent;)V
+ ... #1
+      name       - mouseExited
+      desc       - (Ljava/awt/event/MouseEvent;)V
+      new_access - 49
+      new_name   - _mouseExited
+      new_desc   - (Ljava/awt/event/MouseEvent;)V
+ ... #2
+      name       - mouseReleased
+      desc       - (Ljava/awt/event/MouseEvent;)V
+      new_access - 49
+      new_name   - _mouseReleased
+      new_desc   - (Ljava/awt/event/MouseEvent;)V
+ ... #3
+      name       - mouseDragged
+      desc       - (Ljava/awt/event/MouseEvent;)V
+      new_access - 49
+      new_name   - _mouseDragged
+      new_desc   - (Ljava/awt/event/MouseEvent;)V
+ ... #4
+      name       - mouseMoved
+      desc       - (Ljava/awt/event/MouseEvent;)V
+      new_access - 49
+      new_name   - _mouseMoved
+      new_desc   - (Ljava/awt/event/MouseEvent;)V
+ ... #5
+      name       - mouseEntered
+      desc       - (Ljava/awt/event/MouseEvent;)V
+      new_access - 49
+      new_name   - _mouseEntered
+      new_desc   - (Ljava/awt/event/MouseEvent;)V
+ ... #6
+      name       - mouseClicked
+      desc       - (Ljava/awt/event/MouseEvent;)V
+      new_access - 49
+      new_name   - _mouseClicked
+      new_desc   - (Ljava/awt/event/MouseEvent;)V
+--------------------------
+#10    
+      op     - 8
+      clazz  - gp
+      count  - 8
+ ... #0
+      name       - mouseExited
+      desc       - (Ljava/awt/event/MouseEvent;)V
+      new_access - 49
+      new_name   - _mouseExited
+      new_desc   - (Ljava/awt/event/MouseEvent;)V
+ ... #1
+      name       - mouseClicked
+      desc       - (Ljava/awt/event/MouseEvent;)V
+      new_access - 49
+      new_name   - _mouseClicked
+      new_desc   - (Ljava/awt/event/MouseEvent;)V
+ ... #2
+      name       - mouseReleased
+      desc       - (Ljava/awt/event/MouseEvent;)V
+      new_access - 49
+      new_name   - _mouseReleased
+      new_desc   - (Ljava/awt/event/MouseEvent;)V
+ ... #3
+      name       - mouseWheelMoved
+      desc       - (Ljava/awt/event/MouseWheelEvent;)V
+      new_access - 49
+      new_name   - _mouseWheelMoved
+      new_desc   - (Ljava/awt/event/MouseWheelEvent;)V
+ ... #4
+      name       - mouseEntered
+      desc       - (Ljava/awt/event/MouseEvent;)V
+      new_access - 49
+      new_name   - _mouseEntered
+      new_desc   - (Ljava/awt/event/MouseEvent;)V
+ ... #5
+      name       - mouseMoved
+      desc       - (Ljava/awt/event/MouseEvent;)V
+      new_access - 49
+      new_name   - _mouseMoved
+      new_desc   - (Ljava/awt/event/MouseEvent;)V
+ ... #6
+      name       - mousePressed
+      desc       - (Ljava/awt/event/MouseEvent;)V
+      new_access - 49
+      new_name   - _mousePressed
+      new_desc   - (Ljava/awt/event/MouseEvent;)V
+ ... #7
+      name       - mouseDragged
+      desc       - (Ljava/awt/event/MouseEvent;)V
+      new_access - 49
+      new_name   - _mouseDragged
+      new_desc   - (Ljava/awt/event/MouseEvent;)V
+--------------------------
+#9     
+      op     - 9
+      clazz  - ic
+      name   - a
+      desc   - ([Lcn;IIIIIIZIII)V
+--------------------------
+#8     
+      op     - 9
+      clazz  - ec
+      name   - a
+      desc   - (Lha;ZLqq;B[Lka;)V
+--------------------------
+#7     
+      op     - 9
+      clazz  - dj
+      name   - a
+      desc   - (IIIIIIIIII)V
+--------------------------
+#6     
+      op     - 9
+      clazz  - bba
+      name   - a
+      desc   - (BLha;)Ltf;
+--------------------------
+#5     
+      op     - 9
+      clazz  - afa
+      name   - a
+      desc   - (BLha;)Ltf;
+--------------------------
+#4     
+      op     - 9
+      clazz  - fh
+      name   - a
+      desc   - (BLha;)Ltf;
+--------------------------
+#3     
+      op     - 9
+      clazz  - jn
+      name   - a
+      desc   - (BLha;)Ltf;
+--------------------------
+#2     
+      op     - 9
+      clazz  - vja
+      name   - a
+      desc   - (BLha;)Ltf;
+--------------------------
+#1     
+      op     - 9
+      clazz  - ic
+      name   - a
+      desc   - (ILjava/lang/String;ILjava/lang/String;ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;I)V
+--------------------------
+#0     
+      op     - 10
+      old clazz  - java/io/RandomAccessFile
+      new clazz  - org/rsbot/client/RandomAccessFile
+      count      - 2
+ ... #1
+      clazz  - saa
+ ... #0
+      clazz  - qb

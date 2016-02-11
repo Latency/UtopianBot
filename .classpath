@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry including="MonkKiller.java" kind="src" output="Precompiled" path="Scripts"/>
+	<classpathentry excluding="org/rsbot/loader/ClientLoader - Copy.java|org/rsbot/loader/script/ParseException.java|org/rsbot/script/internal/BackgroundScriptHandler.java|org/rsbot/script/BackgroundScript.java" kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/Apache Commons"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/Guava"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/Javax"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>
